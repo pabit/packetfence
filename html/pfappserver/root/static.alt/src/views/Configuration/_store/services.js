@@ -24,7 +24,6 @@ const state = {
 
 const getters = {
   isLoading: state => state.requestStatus === types.LOADING
-
 }
 
 const actions = {
